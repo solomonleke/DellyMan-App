@@ -1,0 +1,261 @@
+* {
+	
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    
+    overflow-x: hidden;
+}
+/* how it works */
+
+.how-it-works{
+    margin: 1.8% 10%;
+    padding-top: 15.5rem;
+}
+.how-it-works h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(157, 33, 67);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.9rem;
+}
+.how-it-works p{
+    color: rgb(33, 37, 41);
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.2rem;
+    line-height: 1.5rem;
+}
+
+/* classification section */
+
+.classification{
+    width: 30%;
+    display: flex;
+    margin: 3.8rem auto;
+    justify-content: center;
+    border: 3px solid rgb(157, 33, 67);
+    border-radius: 28px;
+
+}
+.customer, .provider, .rider{
+    padding: 0.9rem 1.4rem;
+}
+.customer{
+    border-right: 3px solid rgb(157, 33, 67);
+}
+.provider{
+    border-right: 3px solid rgb(157, 33, 67);
+}
+
+.btn-group{
+    display: flex !important;
+    justify-content: center !important;
+    margin: 3.8rem auto !important; 
+    width: 30% !important;
+    border: 3px solid rgb(157, 33, 67); 
+    border-radius: 40px;
+}
+.btn_1, .btn_2, .btn_3{
+    border: 0;
+    background-color: white;
+    padding: 12px;
+    
+}
+.anc-b{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    color: black;
+    transition: 0.3s ease-in-out;
+   
+
+
+}
+.btn_1 .anc-b{
+    color: #9d2143;
+}
+
+.btn_2 {
+    border-left: 3px solid rgb(157, 33, 67);
+    border-right: 3px solid rgb(157, 33, 67);
+}
+
+.anc-b:hover{
+    color: #9d2143;
+}
+
+/* avatar section */
+
+.avatar{
+    width: 100%;
+    
+    
+}
+.avatar-row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0rem 25% ;
+
+}
+.avatar-content{
+    width: 75%;
+    border-left: 2.5px dotted rgb(157, 33, 67);
+    padding: 0 3rem 5rem;
+    position: relative;
+}
+.avatar-content p{
+    width: 60%;
+}
+.icon1{
+    width: 10%;
+}
+.icon1 img{
+    width: 70%;
+}
+.dotted{
+    border-left: 2.5px dotted rgb(157, 33, 67);
+    height: 500px;
+}
+
+
+
+/* absolute icons */
+.icons img{
+    background-color: rgb(157, 33, 67);
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+.icons{
+    position: absolute;
+    top: 0;
+    left: -1.5rem;
+}
+
+/* footer section */
+
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+.footer1{
+    padding-top: 3.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: auto;
+}
+
+.fsection11{
+    width: 30%;
+    margin: 0;
+    padding:0;
+}
+.fsection1 img{
+    width:30%
+}
+.fsection1 p{
+    width: 50%;
+    padding-top: 1rem;
+}
+
+ .social-icon1{
+    background-color: blue;
+    border-radius: 100%;
+}
+
+/* media Query */
+@media only screen and (max-width:768px) {
+    .top{
+        height: 70vh;
+    }
+    .how-it-works{
+        margin: 1.8% 10%;
+        padding-top: 19.5rem;
+    }
+    .image-container ul{
+        display: none;
+    }
+    .image1{
+        width: 30%;
+    }
+    .how-it-works{
+        margin: 0.8rem;
+    }
+   /* the classification section */
+   .btn-group{
+    display: flex !important;
+    justify-content: center !important;
+    margin: 3.8rem auto !important; 
+    width: 70% !important;
+    border: 3px solid rgb(157, 33, 67); 
+    border-radius: 40px;
+}
+   .classification{
+       width: 90%;
+       margin-top: 1.8rem;
+   }
+   .customer, .provider, .rider{
+    padding: 0.8rem 0.5rem;
+    }
+    .icons{
+        display: none;
+    }
+    .icon1 img{
+        
+
+        margin-left: rem;
+        margin-bottom: 2rem;
+    }
+    .avatar-content{
+        border-left: none;
+        width: 100%;
+        padding: 0;
+    }
+    .avatar-row{
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0 !important;
+    }
+    .avatar-content p{
+        width: 100%;
+    }
+    .icon1{
+        width: 20%;
+        margin-top: 2rem;
+    }
+    .icon1 img{
+        width: 100%;
+
+    }
+    .avatar{
+        width: 100%;
+        margin: 1rem auto;
+        
+    }
+
+    /* pre footer */
+    .pre-footer{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0.5rem;
+    }
+    .pre-footer p{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .contact-us{
+       margin: auto;
+    }
+   
+
+}

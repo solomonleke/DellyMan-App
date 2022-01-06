@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#contactus {
+  color: #9d2143;
+  font-size: 2.5rem;
+  margin-top: -19px;
+  padding-bottom: 15px;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+.lne {
+  width: 100%;
+  background-color: rgb(255, 150, 2);
+  padding: 1px;
+  margin-top: -9px;
+  margin-bottom: 11px;
+  padding-left: 12px;
+}
+.form-input {
+  width: 100%;
+  padding: 10px;
+}
+.inputs {
+  width: 60%;
+  padding: 20px;
+  background-color: gray;
+  margin: 0 auto;
+}
+input {
+  width: 90%;
+  margin-bottom: 17px;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 5px;
+  border-radius: 0;
+}
+.txtarea{
+    width: 90%;
+    margin-bottom: 17px;
+    border: 1px solid rgb(204, 204, 204);
+    padding: 5px;
+    }
+.label {
+  /* padding: -5px 15px; */
+  text-align: center !important;
+}
+.wrapper-contact {
+  background-color: #ffffff !important;
+  margin-top: 270px;
+}
+.mycontainer{
+  width: 50%;
+}
+#text-capt{
+  padding-top: 7px;
+  margin-left: -20px;
+}
+.check_box{
+  font-size: 27px;
+  display: inline-flex;
+  justify-content: center;
+  position: absolute;
+  padding-right: 10px;
+  border-radius: 0px !important;
+}
+.contact-form {
+  border: 1px solid rgb(204, 204, 204);
+  flex-direction: column;
+  padding: 15px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  
+}
+img {
+  width: 50%;
+  /* height: 10%;  */
+  object-fit: contain;
+}
+#recaptcha {
+  position: relative;
+}
+#recaptcha-img {
+  position: absolute;
+  /* margin-top: 33px; */
+  width: 30%;
+  right: -5%;
+  top: -15%;
+}
+.check-box {
+  border: 1px solid rgb(202, 200, 200);
+  background-color: #F9F9F9;
+  width: 50%;
+  /* height: 20%; */
+  margin-left: 12px;
+  /* padding: 10px; */
+  padding: 12px;
+  position: relative;
+}
+#bttn{
+    margin-top: 30px;
+    margin-bottom: 2px;
+    background-color: #9D2143;
+    margin-left: 75px;
+    border-color: #9d2143;
+}
+.prefooter{
+   background-color: #9d2143;
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 5px solid #ff9602;
+}
+h2{
+    color: #ff9f00;
+}
+.buttn {
+background-color: rgb(194,58,96);
+border:0;
+font-size: 18px;
+color: #ffffff;
+text-align: center;
+padding: 10px;
+margin-top: 10%;
+border-radius: 8px;
+}
+
+
